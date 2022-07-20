@@ -308,6 +308,10 @@ footer {
     }
 
     /* hero sytles end */
+    .hero {
+        margin-bottom: 27px;
+    }
+
     .hero-area {
         flex-direction: column;
     }
