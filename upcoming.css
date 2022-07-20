@@ -75,8 +75,7 @@ hero styles------- --*/
     width: 80%;
 }
 
-.hero-btn,
-.blogs-btn {
+.hero-btn {
     margin-top: 26px;
     width: 133px;
     height: 23px;
@@ -84,11 +83,6 @@ hero styles------- --*/
     border-radius: 5px;
     text-align: center;
     padding: 15px 25px;
-}
-
-.blogs-btn a {
-    color: #fff;
-    font-size: 20px;
 }
 
 .hero-btn a {
@@ -146,6 +140,10 @@ aside {
     border: 1pz solid #161616;
     padding: 15px 23px;
     background-color: #fff;
+}
+
+.blogs-btn {
+    visibility: hidden;
 }
 
 .btn1.active {
@@ -449,6 +447,25 @@ tablet view
 
     /* hero styles */
     /* blogs styles*/
+    .blogs-btn {
+        visibility: visible;
+    }
+
+    .blogs-btn {
+        margin-top: 26px;
+        width: 133px;
+        height: 23px;
+        background-color: crimson;
+        border-radius: 5px;
+        text-align: center;
+        padding: 15px 25px;
+    }
+
+    .blogs-btn a {
+        color: #fff;
+        font-size: 20px;
+    }
+
     .blogs {
         margin-bottom: 43px;
     }

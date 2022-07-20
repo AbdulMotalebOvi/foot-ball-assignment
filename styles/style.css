@@ -64,6 +64,11 @@ hero styles------- --*/
     text-transform: capitalize;
 }
 
+.blogs-btn {
+    visibility: hidden;
+
+}
+
 
 
 .hero-desc p {
@@ -73,8 +78,7 @@ hero styles------- --*/
     width: 80%;
 }
 
-.hero-btn,
-.blogs-btn {
+.hero-btn {
     margin-top: 26px;
     width: 133px;
     height: 23px;
@@ -84,10 +88,6 @@ hero styles------- --*/
     padding: 15px 25px;
 }
 
-.blogs-btn a {
-    color: #fff;
-    font-size: 20px;
-}
 
 .hero-btn a {
     color: #fff;
@@ -171,21 +171,8 @@ aside {
     border-radius: 14px;
 }
 
-.blog-btn {
-    width: 67px;
-    height: 19px;
-    border-radius: 6px;
-    border: 1px solid #161616;
-    padding: 4px 12px;
-    font-size: 14px;
-    text-align: center;
-    margin-top: 5px;
-}
 
-.blog-btn a {
-    color: #161616;
-    letter-spacing: 1px;
-}
+
 
 .blog-title {
     font-weight: 600;
@@ -207,11 +194,13 @@ aside {
     margin-left: 6px;
 }
 
-.footer-menu ul li {
-    list-style: none;
-    text-transform: capitalize;
-
+.blogs-btn {
+    visibility: hidden;
 }
+
+/* }blogs end */
+
+
 
 
 
@@ -244,6 +233,7 @@ footer {
 
 
 
+
 .footer-menu ul {
     list-style: none;
     display: flex;
@@ -254,6 +244,11 @@ footer {
 
 }
 
+.footer-menu ul li {
+    list-style: none;
+    text-transform: capitalize;
+
+}
 
 
 .footer-menu ul li a {
@@ -441,6 +436,26 @@ tablet view
 
     .blog-info {
         margin-top: -11px;
+    }
+
+    .blogs-btn {
+        visibility: visible;
+    }
+
+
+    .blogs-btn {
+        margin-top: 26px;
+        width: 133px;
+        height: 23px;
+        background-color: crimson;
+        border-radius: 5px;
+        text-align: center;
+        padding: 15px 25px;
+    }
+
+    .blogs-btn a {
+        color: #fff;
+        font-size: 20px;
     }
 
     .all-blogs {
